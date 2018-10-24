@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     animal_array = []
     arguments.each do |country|
       self.each do |animal, country2|
